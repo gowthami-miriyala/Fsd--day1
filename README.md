@@ -1,5 +1,7 @@
 # Fsd--day1
 
+
+
 output  :
 ---------
 <img width="1339" height="367" alt="Image" src="https://github.com/user-attachments/assets/a10aa280-eeb7-41db-8fcb-ee887d14e2c7" />
