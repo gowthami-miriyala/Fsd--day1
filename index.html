@@ -3,104 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About_My_college</title>
-    <style>
-table, th, td {
-  border:1px solid black;
-  border-collapse: collapse;
-}
-</style>
+    <title>Student Details D</title>
+    <link rel="stylesheet" href="index.css">
     
 </head>
 <body>
-    <h1>ADITYA UNIVERSITY</h1>
-    <h2>Aditya College Of Engineering And Technology</h2>
-    <h6>Location: Aditya Nagar, ADB Road, Surampalem, Kakinada District, Andhra Pradesh - 533437.</h6>
-    <h4> About Collegee:</h4>
-    <p>Aditya University is a State Private University located at Surampalem in Kakinada District, Andhra Pradesh. Established under the Andhra Pradesh Private Universities Act, 2016, the university has evolved from the well-known Aditya Engineering College, which was founded in 2001 under the Aditya Academy educational group.</p>
-    <h5>History of Aditya</h5>
-    <p>Aditya Engineering College (AEC) was established in the year 2001 by Aditya Academy. Rooted deeply in the vision of Dr. N. Sesha Reddy,
-The Aditya Academy, founded in 1984, with a vision and mission to create a platform for holistic growth and success to students. As a non-profit Educational Society, its commitment to quality education for rural students in Andhra Pradesh is a story of inspiration and perseverance.
-The Aditya educational group is with 80,000+ students in 80+ institutions with 8000+ staff across the coastal districts in Andhra Pradesh has become the standard bearer for quality education. In every stream, Aditya has become a springboard for success through its powered vision, constant innovation and professional excellence.</p>
-    <h6>college logo</h6>
-    <img src="C:\Users\miriy\Downloads\Aditya_logo" alt = "aditya">
-    <hr>
-    <h3> Branches Details</h3>
-    <table style="width:100%" >
-        <tr>
-            <th>S.No</th>
-            <th>Branch Names</th>
-            <th>1st year Sections</th>
-            <th>2nd year Sections</th>
-            <th>3rd year Sections</th>
-            <th>4th year Sections</th>
-        </tr>
-        <tr>
-            <td>1.</td>
-            <td>Computer Science And Engineering</td>
-            <td>15 sections</td>
-            <td>12 sections</td>
-            <td>10 sections</td>
-            <td>8 sections</td>
-        </tr>
-        <tr>
-            <td>2.</td>
-            <td>Artificial Intiligence and machine learning</td>
-            <td>18 sections</td>
-            <td>13 sections</td>
-            <td>10 sections</td>
-            <td>5 sections</td>
-        </tr>
-        <tr>
-            <td>3.</td>
-            <td>Data Science</td>
-            <td>18 sections</td>
-            <td>13 sections</td>
-            <td>10 sections</td>
-            <td>6 section</td>
-        </tr>
-        <tr>
-            <td>4.</td>
-            <td>Information Technology</td>
-            <td>6 section</td>
-            <td>5 section</td>
-            <td>6 section</td>
-            <td>6 section</td>
-        </tr>
-        <tr>
-            <td>5.</td>
-            <td>Electrical And communication Engineering</td>
-            <td>10 sections</td>
-            <td>8 sections</td>
-            <td>6 section</td>
-            <td>6 section</td>
-        </tr>
-        <tr>
-            <td>6.</td>
-            <td>Electrical and Electronic Engineering</td>
-            <td>3 sections</td>
-            <td>4 sections</td>
-            <td>3 sections</td>
-            <td>4 sections</td>
-        </tr>
-        <tr>
-            <td>7.</td>
-            <td>Mechanical Engineering</td>
-            <td>3 sections</td>
-            <td>4 sections</td>
-            <td>3 sections</td>
-            <td>3 section</td>
-        </tr>
-        <tr>
-            <td>8.</td>
-            <td>Civil Engineering</td>
-            <td>3 sections</td>
-            <td>3 sections</td>
-            <td>4 sections</td>
-            <td>3 sections</td>
-        </tr>
-        
-        
-    </table>
+    <h1 style="text-align: center;">Student Details</h1>
+    <form style="text-align:left;">
+        <tabel>
+            <tr>
+        <label for="fname">Firstname:</label><br>
+        <input type="text" id="fname" name="fname" placeholder=" enter firstname"><br>
+        <label for="lname">Lastname</label><br>
+        <input type="text" id="lname" name="lname" placeholder=" enter lastname"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" namr="email" placeholder="enter email"><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="enter password"><br>
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder=" enter phone number" pattern="[0-9]{10}"><br>
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender">
+        <label for="emale">Female</label><br>
+        <input type="radio" id="other" name="gender">
+        <label for="other">Other</label><br>
+        <label for="disability:">Disability</label><br>
+        <input type="radio" id="yes" name="yes" >
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="no" >
+        <label for="no">No</label><br>
+        <label for="date of birth:">Date of birth</label><br>
+        <input type="date" id="date of birth" name="date of birth"><br>
+        <label for="country">Select Country:</label><br>
+        <select id="country" name="contry">
+            <option value="australia">Austealia</option>
+            <option value="brazil">Brazil</option>
+            <option value="canada">Canada</option>
+            <option value="japan">Japan</option>
+            <option value="india">India</option>
+        </select><br>
+        <label for="state">Select state:</label><br>
+        <select id="states" name="states">
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Chhattisgarh">Chhattisgarh</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Goa">Goa</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Maharastra">Maharasthra</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Manipur">Manipur</option>
+            <option value="Megaland">Meghalaya</option>
+            <option value="Mizaram">Mizaram</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Sikkim">Sikkim</option>
+            <option value="Tripura">Tripura</option>
+            <option value="Telengana">Telangana</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttarkahand">Uttarkhand</option>
+            <option value="West Bengal">West Bengal</option>
+            <option value="Andaman & Nicobar">Andaman & Nicobar</option>
+            <option value="Chandigrah">Chandigarh</option>
+            <option value="Dadra & Nagar Havali">Dadra & Nagar Havali</option>
+            <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+            <option value="Lakshadweep">Lakshadweep</option>
+            <option value="Ladakh">Ladakh </option>
+            <option value="Puducherry">Puducherry</option>
+        </select><br>
+        <label for="disignation">Disignation:</label><br>
+        <select id="disignation" name="Disignation">
+            <option value="B.Tech">B.Tech</B></option>
+            <option value="Degree">Degree</option>
+            <option value="M.B.A">M.B.A</option>
+            <option value="M.C.A">M.C.A</option>
+        </select><br>
+        <label for="course">Course</label><br>
+        <select id="course" name="course">
+            <option value="CSE">CSE</option>
+            <option value="CSE-AIML">CSE-AIML</option>
+            <option value="CSE-DS">CSE-DS</option>
+            <option value="IT">IT</option>
+            <option value="IOT">IOT</option>
+            <option value="ECE">ECE</option>
+            <option value="EEE">EEE</option>
+            <option value="MECH">MECH</option>
+            <option value="CIVIL">CIVIL</option>
+        </select><br>
+        <label for="pin">Pincede:</label><br>
+        <input type="tel" id="pincode" namr="pincode" pattern="[0-9]{6}"><br>
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" namr="phonenumber" pattern="[0-9]{10}"><br>
+        <label for="image">Student Profile:</label><br>
+        <input type="file" id="image" name="image" ><br>
+        <label for="file">Upload Resume:</label><br>
+        <input type="file" id="filename" name="filename"></br>
+        <label for="address">Address:</label><br>
+        <input  name="message" rows="10" cols="10" style="width:200px; height:100px;"><br>
+        <input type="checkbox" id="agree" name="igree">
+        <label for="agree">I Agree</label><br>
+        <input type="submit" id="submit" value="SUBMIT"><br>
+
+     </form>
 </body>
 </html>
