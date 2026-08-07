@@ -15,7 +15,7 @@ Task - 2  :
 
 Task - 3 :
 ---------
-<img width="1360" height="721" alt="Image" src="https://github.com/user-attachments/assets/fea35a4d-6445-4f30-9da9-6a765fbc1fd2" />
+<img width="1344" height="687" alt="Image" src="https://github.com/user-attachments/assets/7c64ddca-8198-45d9-a7da-2a6c79b033f0" />
 
 
 
