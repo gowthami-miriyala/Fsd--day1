@@ -1,97 +1,38 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.col-1{width: 8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+body{
+    height:600px;
 }
-
-.container{
-    display: flex;
-    width: 100%;
-    height: 600px;
-}
-
-.col-3{
-    width: 25%;
-}
-
-.col-6{
-    width: 50%;
-}
-
-.col-9{
-    width: 75%;
-}
-.col-12{
-    width: 100%;
-}
-.left{
-    display: flex;
-    flex-direction: column;
-}
-
-.top,
-.bottom{
-    height: 50%;
-}
-
-.right{
-    display: flex;
-    flex-direction: column;
-}
-
 .row{
-    display: flex;
+    display:flex;
 }
-
-.row1,
-.row2{
-    height: 40%;
+.h-50{
+    height:300px;
 }
-
-.middle{
-    display: flex;
-    height: 75%;
+.h-25{
+    height: 150px;
 }
-
-.center{
-    width: 75%;
-    display: flex;
-    flex-direction: column;
-}
-.row3{
-    height: 50%;
-}
-
-.pink{
-    width: 25%;
-}
-
-.bg-brown{
-    background-color:brown;
-}
-.bg-yellow{
-    background-color: yellow;
-}
-.bg-purple{
-    background-color: purple;
-}
-.bg-lightblue{
-    background-color:lightblue;
-}
-.bg.blue{
-    background-color:blue;
+.bg-blue{
+    background-color: blue;
 }
 .bg-green{
     background-color:green;
 }
 .bg-red{
-    background-color: red;
+    background-color:red;
 }
-.bg-blue{
-    background-color: blue;
-}
-.bg-pink{
-    background-color: pink;
+.bg-yellow{
+    background-color:yellow;
 }
 .bg-orange{
     background-color: orange;
@@ -99,4 +40,19 @@
 .bg-violet{
     background-color: violet;
 }
-
+.row1{
+    height: 150px;
+}
+.row2{
+    height: 300px;
+}
+.row3{
+    height: 150px;
+}
+section{
+    margin:20px auto;
+    border:2px solid black;
+}
+[class*="col-"]{
+    border:1px solid black;
+}
